@@ -56,7 +56,7 @@ export const PROJECTS = [
       "My personal blogfolio website. A place to host my projects and my thoughts",
     skills: ["Remix", "TypeScript", "CSS", "React"],
     image: jlThumb,
-    url: "https://github.com/jeremyMLtz/jl_blogfolio",
+    url: "https://github.com/jeremyMLtz/jeremyltz",
   },
 ];
 
