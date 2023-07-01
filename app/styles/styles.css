@@ -187,6 +187,7 @@ p.intro-blurb {
   margin-block-end: 1rem;
   transition: var(--transition);
   cursor: pointer;
+  max-inline-size: 550px;
 }
 .job-card:hover {
   background: #ffffff10;
@@ -271,6 +272,12 @@ footer span {
   color: var(--dark-grey);
 }
 
+@media screen and (min-width: 700px) {
+  .page-container {
+    padding-inline: 10rem;
+  }
+}
+
 @media screen and (min-width: 1025px) {
   .page-container {
     padding-block-start: 0;
@@ -304,6 +311,7 @@ footer span {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-inline-end: 1rem;
   }
   nav {
     display: flex;
@@ -317,6 +325,7 @@ footer span {
     font-weight: 600;
     margin-block-end: 1rem;
     transition: var(--transition);
+    cursor: pointer;
   }
   .active {
     color: var(--light-grey);

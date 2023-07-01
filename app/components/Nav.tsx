@@ -1,17 +1,25 @@
 import { HeaderProps } from "~/utilities/helpers";
 
 const Nav = ({ activeLink }: HeaderProps) => {
+  const handleScroll = (section: string) => {
+    const element = document.getElementById(section);
+    return element?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
   return (
     <nav>
-      <a className={activeLink === "about" ? "active" : ""} href='#about'>
+      <a
+        onClick={() => handleScroll("about")}
+        className={activeLink === "about" ? "active" : ""}>
         About
       </a>
       <a
-        className={activeLink === "experience" ? "active" : ""}
-        href='#experience'>
+        onClick={() => handleScroll("experience")}
+        className={activeLink === "experience" ? "active" : ""}>
         Experience
       </a>
-      <a className={activeLink === "projects" ? "active" : ""} href='#projects'>
+      <a
+        onClick={() => handleScroll("projects")}
+        className={activeLink === "projects" ? "active" : ""}>
         Projects
       </a>
     </nav>
