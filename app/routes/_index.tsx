@@ -14,8 +14,8 @@ export default function Index() {
   useEffect(() => {
     const observerOptions = {
       root: null,
-      rootMargin: "25px",
-      threshold: 1.0,
+      rootMargin: "0px",
+      threshold: 0.8,
     };
 
     const handleIntersect = (entries: any[]) => {
