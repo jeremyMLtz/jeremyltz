@@ -7,7 +7,7 @@ export const JOBS = [
     duration: "March 2023 - Present",
     role: "Lead Developer",
     description:
-      "Co-founded and launched a technology startup focused on developing innovative software solutions for the test automation industry. Led the technical vision, architecture, and development of the product from idea to fully functional prototype",
+      "Co-founded and launched a technology startup focused on bringing autonomous test automation to the software industry. Led the technical vision, architecture, and development of the product from idea to fully functional prototype",
     skills: ["Node.js", "JavaScript", "Express", "React", "Remix"],
   },
   {
@@ -45,7 +45,7 @@ export const PROJECTS = [
   {
     name: "Heimdall",
     description:
-      "A productivity desktop application that allows the user to create workspaces with a list blocked applications. Enter Focus Mode to then block those apps from being accessed, eliminating all distractions",
+      "A productivity desktop application that allows the user to create workspaces with a list of blocked applications. Enter Focus Mode to then block those apps from being accessed, eliminating all distractions",
     skills: ["Electron.js", "Node.js", "HTML", "CSS", "JavaScript", "Webpack"],
     image: heimdallThumb,
     url: "https://github.com/jeremyMLtz/project_heimdall",
