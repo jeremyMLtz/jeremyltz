@@ -24,7 +24,7 @@ const About = forwardRef<HTMLElement, {}>(({}, ref: Ref<HTMLElement>) => (
         role, and from that point on, there was no looking back.
       </p>
       <p>
-        These days, I dedicate most of my time to working on my startup called
+        These days, I dedicate most of my time to working on my startup
         <strong> SimplMachine</strong>, where we develop solutions for
         automation engineers. Simultaneously, I'm always on the lookout for new
         opportunities. When I'm not coding, you can find me exploring the woods,
