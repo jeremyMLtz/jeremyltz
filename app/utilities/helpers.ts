@@ -1,8 +1,8 @@
 import React from "react";
 import heimdallThumb from "../assets/Heimdall-thumb.png";
 import jlThumb from "../assets/jl-thumb.png";
-import unstyledThumb from "../assets/Unstyled.jpg";
-import crsThumb from "../assets/crs.jpg";
+import unstyledThumb from "../assets/unstyled.png";
+import crsThumb from "../assets/crs.png";
 export const JOBS = [
   {
     company: "SimplMachine",
