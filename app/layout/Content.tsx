@@ -17,9 +17,9 @@ const Content = ({ sectionRefs }: ContentProps) => (
   <main>
     <About ref={sectionRefs.about} />
     <hr />
-    <Jobs ref={sectionRefs.experience} />
-    <hr />
     <Projects ref={sectionRefs.projects} />
+    <hr />
+    <Jobs ref={sectionRefs.experience} />
     <Socials className='content-socials' />
     <Footer />
   </main>

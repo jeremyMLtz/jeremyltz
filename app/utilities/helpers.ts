@@ -1,6 +1,8 @@
 import React from "react";
 import heimdallThumb from "../assets/Heimdall-thumb.png";
 import jlThumb from "../assets/jl-thumb.png";
+import unstyledThumb from "../assets/Unstyled.jpg";
+import crsThumb from "../assets/crs.jpg";
 export const JOBS = [
   {
     company: "SimplMachine",
@@ -42,6 +44,22 @@ export const JOBS = [
 ];
 
 export const PROJECTS = [
+  {
+    name: "Unstyled",
+    description:
+      "Simple, accessible, customizable copy and paste component library.",
+    skills: ["Next.js", "TypeScript", "CSS", "TailwindCSS", "Node.js"],
+    image: unstyledThumb,
+    url: "https://unstyled.jeremylentz.io",
+  },
+  {
+    name: "create-remstack-app",
+    description:
+      "CLI tool focused on creating full stack Next.js apps with Tailwind, Clerk, Typescript, and Prisma",
+    skills: ["Next.js", "TypeScript", "Prisma", "TailwindCSS", "Node.js"],
+    image: crsThumb,
+    url: "https://github.com/jeremyMLtz/create-remstack-app",
+  },
   {
     name: "Heimdall",
     description:

@@ -13,14 +13,14 @@ const Nav = ({ activeLink }: HeaderProps) => {
         About
       </a>
       <a
-        onClick={() => handleScroll("experience")}
-        className={activeLink === "experience" ? "active" : ""}>
-        Experience
-      </a>
-      <a
         onClick={() => handleScroll("projects")}
         className={activeLink === "projects" ? "active" : ""}>
         Projects
+      </a>
+      <a
+        onClick={() => handleScroll("experience")}
+        className={activeLink === "experience" ? "active" : ""}>
+        Experience
       </a>
     </nav>
   );
